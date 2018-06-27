@@ -57,8 +57,7 @@ h6 {
 }
 
 /* lesson picker style */
-.choose ul,
-li {
+.choose ul li {
   list-style: none;
 }
 
