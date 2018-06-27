@@ -1,0 +1,79 @@
+/* RGB */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab");
+
+body {
+  font-family: "Roboto", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  font-size: 18px !important;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #222;
+  font-weight: 200;
+}
+
+h2,
+h3 {
+  font-family: "Roboto Slab", serif !important;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-family: "Roboto Slab", serif;
+}
+
+h5,
+h6 {
+  font-family: "Roboto", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  text-rendering: optimizeLegibility;
+  color: #5e5e5e;
+  font-weight: 400;
+  letter-spacing: -1px;
+}
+
+/* sidebar */
+/* first level */
+#sidebar ul.topics > li > a {
+  font-family: "Roboto Slab";
+  font-weight: 575;
+  line-height: 2rem;
+  font-size: 1.1rem;
+}
+
+/* second level */
+#sidebar ul.topics > li > ul {
+  font-family: "Roboto Slab";
+}
+
+/* top bar */
+#top-bar {
+  font-family: "Roboto Slab";
+}
+
+/* lesson picker style */
+.choose ul,
+li {
+  list-style: none;
+}
+
+/* codepen padding */
+.cp_embed_wrapper {
+  padding-top: 2.3rem;
+}
+
+/* hide things unless printing */
+#pageFooter,
+.codepen-url {
+  display: none;
+}
+
+/* hide teacher material by default */
+.teacher {
+  display: none;
+}
