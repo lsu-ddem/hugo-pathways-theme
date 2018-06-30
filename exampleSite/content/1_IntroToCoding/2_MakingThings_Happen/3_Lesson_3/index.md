@@ -27,11 +27,7 @@ H(Create Variable)-->A
 A{Test} -->|True| B[Repeated Result Block]
 B-->C[Update Variable Value]
 C-->|Updated Variable Value|A
-style A fill:  #f7dc6f , stroke:#FFFFFF;
-style B fill:  #ec7063, stroke:#FFFFFF;
-style C fill:  #f7dc6f ,stroke:#FFFFFF;
-style E fill: #FFFFFF, stroke:#FFFFFF;
-style H fill:  #f7dc6f ,stroke:#FFFFFF;
+
 {{< /mermaid >}}
 
 To create a for loop, we first design a set of statements that control how many times the loop runs and separate each one with a semicolon. First, we create a variable for use in the loop and initialize it with a starting value. This variable is typically given a one-letter label and is different from any other variable we are using elsewhere in our code. Next, we define a test that evaluates this variable on every loop and keeps the loop running as long as the test passes. If the test fails, the loop stops immediately. The test is always a relational expression, relating the value on the left to the value on the right (a table of common relational expressions and their operators can be found below). Finally, we write a statement that allows the loop variable to be updated every time the test is passed. 
