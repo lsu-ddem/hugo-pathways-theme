@@ -95,3 +95,56 @@ h6 {
   width: 100%;
   height: 100%;
 }
+
+/* teacher material shortcode */
+.teacher-material {
+  margin: 2rem 0;
+  position: relative;
+}
+.teacher-material p {
+  padding: 15px;
+  display: block;
+  font-size: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  color: #666;
+}
+.teacher-material ul {
+  padding: 15px;
+  display: block;
+  font-size: 1rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  padding-left: 2em;
+  color: #666;
+}
+
+.teacher-material :first-child:before {
+  position: absolute;
+  top: 2px;
+  color: #fff;
+  font-family: FontAwesome;
+  content: "";
+  left: 10px;
+}
+
+.teacher-material :first-child:after {
+  position: absolute;
+  top: 2px;
+  color: #fff;
+  left: 2rem;
+}
+.teacher-material p {
+  border-top: 30px solid rgba(92, 184, 92, 0.8);
+  background: #e6f9e6;
+}
+.teacher-material ul {
+  border-top: 30px solid rgba(92, 184, 92, 0.8);
+  background: #e6f9e6;
+}
+.teacher-material p:first-child:after {
+  content: "Teacher Material";
+}
+.teacher-material ul:first-child:after {
+  content: "Teacher Material";
+}
