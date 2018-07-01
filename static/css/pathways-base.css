@@ -119,7 +119,15 @@ h6 {
   color: #666;
 }
 
-.teacher-material :first-child:before {
+.teacher-material p:first-child:before {
+  position: absolute;
+  top: 2px;
+  color: #fff;
+  font-family: FontAwesome;
+  content: "";
+  left: 10px;
+}
+.teacher-material ul:first-child:before {
   position: absolute;
   top: 2px;
   color: #fff;

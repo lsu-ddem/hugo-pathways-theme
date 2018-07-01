@@ -44,7 +44,7 @@ projects.
 {{% /teacher %}}
 {{% teacher %}}
 
-hellooo
+- hellooo
 
 {{% /teacher %}}
 
