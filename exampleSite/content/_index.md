@@ -35,9 +35,13 @@ of
 graphics, sound, and hardware to be composed into interactive
 projects.
 
+{{< teacher tip >}}
+test test test
+{{< /teacher>}}
+
 {{% teacher %}}
-another
-{{% teacher /%}}
+test
+{{%/ teacher %}}
 
 {{% embed "https://docs.google.com/presentation/d/e/2PACX-1vQHutAL0Iq2rBprb2YhwO84kWY477talRd4WGSnb4KVFJqSt-GSL4xjRkdsdzAoxPbkxOVtBYKoWPW7/embed?start=false&loop=false&delayms=3000" %}}
 
