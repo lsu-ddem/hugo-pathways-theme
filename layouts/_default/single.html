@@ -1,5 +1,7 @@
 {{ partial "header.html" . }}
-
+{{if .Params.share }}
+Click <a href="{{safeHTML .Params.share }}" target="_blank">here</a> to download document.
+{{ end }}
 {{ .Content }}
 
 <div id="pageFooter">
