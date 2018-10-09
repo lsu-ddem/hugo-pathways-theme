@@ -1,5 +1,6 @@
 # Hugo Learn Theme
 
+edit
 This theme contains many additions to the Hugo Learn theme used for the Pathways project.
 
 This repository contains a theme for [Hugo](https://gohugo.io/), based on great [Grav Learn Theme](http://learn.getgrav.org/).
