@@ -1,5 +1,11 @@
 ---
 title: Intro to coding
 weight: 1
+type: "teacher" 
+layout: "single"
 ---
-things
+## things 
+
+hahs;ajsdf
+
+<!-- # hiii  -->

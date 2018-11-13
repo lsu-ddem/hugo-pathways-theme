@@ -3,7 +3,7 @@ languageCode = "en-US"
 defaultContentLanguage = "en"
 
 title = "Pathways theme"
-theme = "pathways"
+theme = "hugo-pathways-theme"
 themesdir = "../.."
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true

@@ -1,4 +1,6 @@
 {{ partial "header.html" . }}
+{{ .Site.Copyright | safeHTML }}
+
 <div class="teacher">
 
   {{ .Content }}

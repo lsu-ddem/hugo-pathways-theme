@@ -9,7 +9,14 @@ share: https://docs.google.com/open?id=1LolN48u35wwXa8yyhEcUg02EXBLvwvBmuZXX4tIs
 
 {{% link "programming-digital-media.pdf" %}}
 
-Programming Digital Media introduces a broad array of topics related to digital media through project oriented programming of graphics, audio, and hardware applications. The motivation for this course is
+
+{{% teacher %}}
+
+# Programming 
+Digital Media introduces a broad array of topics related to digital media through project oriented programming of graphics, audio, and hardware applications. The motivation for this course is
+
+{{% /teacher %}}
+
 to provide a basic introduction to comp
 uter programming using subjects that are relevant or appealing
 to students who are new to technological fields of study, with little to no prior programming experience.
