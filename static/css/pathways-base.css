@@ -158,6 +158,6 @@ h6 {
 }
 
 /* codepen */
-.cm-comment {
+span .cm-comment {
   color: #525252
 }
