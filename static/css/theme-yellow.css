@@ -1,6 +1,6 @@
 :root {
   --MAIN-TEXT-color: #323232; /* Color of text by default */
-  --MAIN-TITLES-TEXT-color: #777; /* Color of titles h2-h3-h4-h5 */
+  --MAIN-TITLES-TEXT-color: #555555; /* Color of titles h2-h3-h4-h5 */
   --MAIN-LINK-color: #ffde45; /* Color of links */
   --MAIN-LINK-HOVER-color: #3e0048; /* Color of hovered links */
   --MAIN-ANCHOR-color: #ffde45; /* color of anchors on titles */
@@ -16,7 +16,7 @@
   --MENU-SECTIONS-BG-color: #383f3e; /* Background color of other sections */
   --MENU-SECTIONS-LINK-color: #ccc; /* Color of links in menu */
   --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6; /* Color of links in menu, when hovered */
-  --MENU-SECTION-ACTIVE-CATEGORY-color: #777; /* Color of active category text */
+  --MENU-SECTION-ACTIVE-CATEGORY-color: #555555; /* Color of active category text */
   --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #fff; /* Color of background for the active category (only) */
 
   --MENU-VISITED-color: #ffde45; /* Color of 'page visited' icons in menu */

@@ -156,3 +156,8 @@ h6 {
 .teacher-material ul:first-child:after {
   content: "Teacher Material";
 }
+
+/* codepen */
+.cm-comment {
+  color: #525252
+}
