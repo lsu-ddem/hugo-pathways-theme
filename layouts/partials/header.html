@@ -2,7 +2,7 @@
 <html lang="{{ .Page.Language | default "en" }}" class="js csstransforms3d">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     {{ .Hugo.Generator }}
     {{ partial "meta.html" . }}
     {{ partial "favicon.html" . }}
@@ -40,7 +40,7 @@
   </head>
   <body class="" data-url="{{ .RelPermalink }}">
     {{ partial "menu.html" . }}
-        <section id="body">
+        <main id="body" roll="main">
         <div id="overlay"></div>
         <div class="padding highlightable">
               {{if not .IsHome}}
@@ -62,7 +62,7 @@
                 <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
                     <span id="sidebar-toggle-span">
                         <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
-                          <i class="fa fa-bars"></i>
+                          <i class="fa fa-bars" aria-hidden></i>
                         </a>
                     </span>
                   {{ if $toc }}
